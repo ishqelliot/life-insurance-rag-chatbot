@@ -1,1 +1,1 @@
-# UI for Chatbot built uisng CRA
+# UI for Chatbot built using CRA bundler
