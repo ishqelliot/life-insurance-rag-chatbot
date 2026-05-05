@@ -101,6 +101,7 @@ const ChatModal: React.FC<{ onClose: () => void }> = ({ onClose }) => {
           content: data.response,
           timestamp: new Date(),
         };
+        console.log("sources",data.sources);
         setMessages(prev => [...prev, assistantMessage]);
       } else {
         const error = await response.json();
